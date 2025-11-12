@@ -1,0 +1,50 @@
+# Ignorar la BBDD de prueba
+basedatos.sql
+
+# Ignore node_modules and dependency directories
+node_modules/
+vendor/
+
+# Ignore build artifacts
+dist/
+build/
+*.log
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and secret files
+.env
+config.json
+
+# VS Code personal settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# User-specific files
+.vscode/sftp.json
+.vscode/ftp-sync.json
+
+# Keep these VS Code files for team sharing
+!.vscode/
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+!.vscode/launch.shared.json
+
+# Ignore personal overrides
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# VS Code workspace files
+*.code-workspace
+
+# Workspace specific settings
+.vscode/workspace.json
+.vscode/*.code-snippets
+
+# Per-folder settings
+*/.vscode/settings.json
+*/.vscode/launch.json
